@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 ## Installation
 
 ```
-## npm i -g reactez
+npm i -g reactez
 ```
 
 ## Usage
