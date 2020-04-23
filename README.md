@@ -1,4 +1,4 @@
-reactez
+## reactez
 
 A simple React CLI for Component and Page creation.
 
