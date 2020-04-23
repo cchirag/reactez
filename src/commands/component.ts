@@ -24,7 +24,7 @@ export default class Component extends Command {
 
     var boilerPlate = "";
 
-    if (flags.cls) {
+    if (flags.class) {
       boilerPlate = `import React from 'react'; \nimport './${componentName}.styles.css'; \nclass ${componentName} extends React.component{ \n }  \nexport default ${componentName};`;
     } else {
       boilerPlate = `import React from 'react'; \nimport './${componentName}.styles.css'; \nconst ${componentName} = () => { } \nexport default ${componentName};`;
