@@ -46,10 +46,10 @@ or
 rez c [COMPONENTNAME]
 ```
 
-This command creates a default Functional Component.
-The component is created at /src/components/.
-The generated component consists of a .jsx(component file) and a .css(style sheet) files.
-Generated component comes with a Functional Component boilerplate with the style sheet imported.
+- This command creates a default Functional Component.
+- The component is created at /src/components/.
+- The generated component consists of a .jsx(component file) and a .css(style sheet) files.
+- Generated component comes with a Functional Component boilerplate with the style sheet imported.
 
 - Class Component
 
@@ -63,10 +63,10 @@ or
 rez c [COMPONENTNAME] -c
 ```
 
-This command creates a Class Component.
-The component is created at /src/components/.
-The generated component consists of a .jsx(component file) and a .css(style sheet) files.
-Generated component comes with a Class Component boilerplate with the style sheet imported.
+- This command creates a Class Component.
+- The component is created at /src/components/.
+- The generated component consists of a .jsx(component file) and a .css(style sheet) files.
+- Generated component comes with a Class Component boilerplate with the style sheet imported.
 
 ## Alternate flag:
 
@@ -94,10 +94,10 @@ or
 rez p [PAGENAME]
 ```
 
-This command creates a default Functional Component Page.
-The component is created at /src/pages/.
-The generated page consists of a .jsx(component file) and a .css(style sheet) files.
-Generated page comes with a Functional Component boilerplate with the style sheet imported.
+- This command creates a default Functional Component Page.
+- The component is created at /src/pages/.
+- The generated page consists of a .jsx(component file) and a .css(style sheet) files.
+- Generated page comes with a Functional Component boilerplate with the style sheet imported.
 
 - Class Component Page
 
@@ -111,10 +111,10 @@ or
 rez p [PAGENAME] -c
 ```
 
-This command creates a Class Component Page.
-The component is created at /src/pages/.
-The generated page consists of a .jsx(component file) and a .css(style sheet) files.
-Generated page comes with a Class Component boilerplate with the style sheet imported.
+- This command creates a Class Component Page.
+- The component is created at /src/pages/.
+- The generated page consists of a .jsx(component file) and a .css(style sheet) files.
+- Generated page comes with a Class Component boilerplate with the style sheet imported.
 
 ## Alternate flag:
 
