@@ -127,3 +127,7 @@ or
 ```
 rez c [PAGENAME] --class
 ```
+
+## Author
+
+Chirag Chandrashekhar -[My github](https://github.com/cchirag)
