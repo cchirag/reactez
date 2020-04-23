@@ -34,7 +34,7 @@ This takes you to an easy-to-use prompt that helps you to generate Components an
 
 ## Component generation
 
-- Functional Component
+## Functional Component
 
 ```
 rez component [COMPONENTNAME]
@@ -51,7 +51,7 @@ rez c [COMPONENTNAME]
 - The generated component consists of a .jsx(component file) and a .css(style sheet) files.
 - Generated component comes with a Functional Component boilerplate with the style sheet imported.
 
-- Class Component
+## Class Component
 
 ```
 rez component [COMPONENTNAME] -c
@@ -82,7 +82,7 @@ rez c [COMPONENTNAME] --class
 
 ## Page generation
 
-- Functional Component Page
+## Functional Component Page
 
 ```
 rez page [PAGENAME]
@@ -99,7 +99,7 @@ rez p [PAGENAME]
 - The generated page consists of a .jsx(component file) and a .css(style sheet) files.
 - Generated page comes with a Functional Component boilerplate with the style sheet imported.
 
-- Class Component Page
+## Class Component Page
 
 ```
 rez page [PAGENAME] -c
