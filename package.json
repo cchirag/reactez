@@ -1,7 +1,7 @@
 {
   "name": "reactez",
   "description": "A simple React CLI for Component and Page creation.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "infinite15",
   "bin": {
     "rez": "./bin/run"
