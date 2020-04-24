@@ -1,7 +1,7 @@
 {
   "name": "reactez",
   "description": "A simple React CLI for Component and Page creation.",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "author": "infinite15",
   "bin": {
     "rez": "./bin/run"
@@ -12,11 +12,10 @@
     "@oclif/config": "1.15.1",
     "@oclif/plugin-help": "2.2.3",
     "@types/inquirer": "6.5.0",
+    "@types/npm": "2.0.31",
     "chalk": "4.0.0",
     "inquirer": "7.1.0",
     "minimist": "1.2.5",
-    "node-cmd": "3.0.0",
-    "node-run-cmd": "1.0.1",
     "tslib": "1.11.1"
   },
   "devDependencies": {
@@ -28,6 +27,7 @@
     "chai": "4.2.0",
     "globby": "10.0.2",
     "mocha": "5.2.0",
+    "npm": "6.14.4",
     "nyc": "14.1.1",
     "rimraf": "3.0.2",
     "ts-node": "8.9.0",

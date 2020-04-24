@@ -1,4 +1,4 @@
-## reactez
+# reactez
 
 A simple React CLI for Component and Page creation.
 
@@ -18,7 +18,7 @@ With the new Version of reactez (v1.1.0)
 A Generate feature has been added.
 It's simple and easy.
 
-## Just type
+### Just type
 
 ```
 rez generate
@@ -30,11 +30,11 @@ or
 rez g
 ```
 
-This takes you to an easy-to-use prompt that helps you to generate Components and Pages.
+This takes you to an easy-to-use prompt that helps you to generate Components,Pages and implement Axios into your project with ease.
 
 ## Component generation
 
-## Functional Component
+### Functional Component
 
 ```
 rez component [COMPONENTNAME]
@@ -51,7 +51,7 @@ rez c [COMPONENTNAME]
 - The generated component consists of a .jsx(component file) and a .css(style sheet) files.
 - Generated component comes with a Functional Component boilerplate with the style sheet imported.
 
-## Class Component
+### Class Component
 
 ```
 rez component [COMPONENTNAME] -c
@@ -68,7 +68,7 @@ rez c [COMPONENTNAME] -c
 - The generated component consists of a .jsx(component file) and a .css(style sheet) files.
 - Generated component comes with a Class Component boilerplate with the style sheet imported.
 
-## Alternate flag:
+### Alternate flag:
 
 ```
 rez component [COMPONENTNAME] --class
@@ -82,7 +82,7 @@ rez c [COMPONENTNAME] --class
 
 ## Page generation
 
-## Functional Component Page
+### Functional Component Page
 
 ```
 rez page [PAGENAME]
@@ -99,7 +99,7 @@ rez p [PAGENAME]
 - The generated page consists of a .jsx(component file) and a .css(style sheet) files.
 - Generated page comes with a Functional Component boilerplate with the style sheet imported.
 
-## Class Component Page
+### Class Component Page
 
 ```
 rez page [PAGENAME] -c
@@ -116,7 +116,7 @@ rez p [PAGENAME] -c
 - The generated page consists of a .jsx(component file) and a .css(style sheet) files.
 - Generated page comes with a Class Component boilerplate with the style sheet imported.
 
-## Alternate flag:
+### Alternate flag:
 
 ```
 rez component [PAGENAME] --class
@@ -127,6 +127,20 @@ or
 ```
 rez c [PAGENAME] --class
 ```
+
+## Axios Implementation.
+
+With the new update, it's easy to implement axios into your project.
+
+### Just type
+
+```
+rez axios
+```
+
+- This installs Axios and creates an axios.js file inside src/services
+
+- This feature is also available on the Generate mode.
 
 ## Author
 
