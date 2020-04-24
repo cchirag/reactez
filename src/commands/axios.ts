@@ -1,6 +1,7 @@
 import { Command } from "@oclif/command";
 import * as fs from "fs";
 import * as child_process from "child_process";
+import * as chalk from "chalk";
 export default class Axios extends Command {
   static description =
     "Install axios automatically and generate a basic axios file";
@@ -18,8 +19,18 @@ export default class Axios extends Command {
     if (!fs.existsSync(axiosDir)) {
       fs.mkdirSync(axiosDir);
       createAxios();
+      this.log(
+        `${chalk.green(
+          "[Success]"
+        )} Axios implementation successful. \n Go to src/services/axios.js to setup your axios`
+      );
     } else {
       createAxios();
+      this.log(
+        `${chalk.green(
+          "[Success]"
+        )} Axios implementation successful. \n Go to src/services/axios.js to setup your axios`
+      );
     }
   }
 }

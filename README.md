@@ -15,7 +15,7 @@ npm i -g reactez
 ## Usage
 
 With the new Version of reactez (v1.1.0)
-A Generate feature has been added.
+a Generate feature has been added.
 It's simple and easy.
 
 ### Just type
