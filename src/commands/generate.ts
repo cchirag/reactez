@@ -46,11 +46,11 @@ export default class Generate extends Command {
       });
 
     if (selectedOption === "Class Component") {
-      component.run([componentName, "--cls"]);
+      component.run([componentName, "--class"]);
     } else if (selectedOption === "Functional Component") {
       component.run([componentName]);
     } else if (selectedOption === "Class Component Page") {
-      page.run([componentName, "--cls"]);
+      page.run([componentName, "--class"]);
     } else if (selectedOption === "Functional Component Page") {
       component.run([componentName]);
     } else if (selectedOption === "Axios Implementation") {
