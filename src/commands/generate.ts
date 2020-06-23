@@ -52,7 +52,7 @@ export default class Generate extends Command {
     } else if (selectedOption === "Class Component Page") {
       page.run([componentName, "--class"]);
     } else if (selectedOption === "Functional Component Page") {
-      component.run([componentName]);
+      page.run([componentName]);
     } else if (selectedOption === "Axios Implementation") {
       axios.run();
     }
